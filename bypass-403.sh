@@ -1,6 +1,6 @@
 #! /bin/bash
 clear
-figlet TONHO
+figlet BYPASS-403
 curl -k -s -o /dev/null -iL -w "%{http_code}","%{size_download}" $1/$2
 echo "  --> ${1}/${2}"
 curl -k -s -o /dev/null -iL -w "%{http_code}","%{size_download}" $1/%2e/$2
